@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;400&display=swap" rel="stylesheet">
+    <title>Justin Grid</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">HEZELNAT SNEAKERS</h2>
+                <p class="sub-heading">Sneakers & Lifestyle</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 1.250K</h4>
+                <p class="item">Series 1</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 1.400K</h4>
+                <p class="item">Series 2</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="title">
+                <h1>HEZELNAT WEB</h1>
+            </div>
+            <div class="nav-menu">
+                <ul class="menu-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🏋️‍♀️</div>
+                <h3>Lifestyle</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a fugiat facere architecto laboriosam
+                    mollitia?</p>
+            </div>
+            <div class="service">
+                <div class="icon">🦶</div>
+                <h3>Sneakers</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a fugiat facere architecto laboriosam
+                    mollitia?</p>
+            </div>
+            <div class="service">
+                <div class="icon">✔️</div>
+                <h3>Nike</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et a fugiat facere architecto laboriosam
+                    mollitia?</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://source.unsplash.com/random/101x101" alt="" />
+            <img src="https://source.unsplash.com/random/102x102" alt="" />
+            <img src="https://source.unsplash.com/random/103x103" alt="" />
+            <img src="https://source.unsplash.com/random/104x104" alt="" />
+            <img src="https://source.unsplash.com/random/105x105" alt="" />
+            <img src="https://source.unsplash.com/random/106x106" alt="" />
+            <img src="https://source.unsplash.com/random/107x107" alt="" />
+            <img src="https://source.unsplash.com/random/108x108" alt="" />
+            <img src="https://source.unsplash.com/random/109x109" alt="" />
+            <img src="https://source.unsplash.com/random/110x110" alt="" />
+        </section>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+
+</html>
